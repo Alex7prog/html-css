@@ -1,9 +1,9 @@
-body {
+.doc {
   font-size: 24px;
 }
-p {
+.paragraf {
   color: green;
 }
-ul {
+.list {
   color: orange;
 }
