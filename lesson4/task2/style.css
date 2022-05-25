@@ -1,9 +1,9 @@
-.cl-html {
+body.cl-document {
   font-size: 24px;
 }
-.cl-p {
+p.cl-p {
   color: green;
 }
-.cl-ul {
+ul.cl-ul {
   color: orange;
 }
