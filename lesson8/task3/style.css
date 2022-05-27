@@ -1,21 +1,5 @@
 div {
-  border: 2px solid black;
-  margin: 50px;
-}
-
-#div1 {
-  background-color: blue;
-}
-
-#div2 {
-  background-color: yellow;
-}
-
-#div3 {
-  background-color: green;
-}
-
-#div4 {
-  background-color: pink;
-  height: 100px;
+  border: 3px solid black;
+  padding: 50px;
+  background-color: aqua;
 }
