@@ -1,0 +1,22 @@
+div {
+  position: absolute;
+}
+.text {
+  margin: 16px;
+  text-decoration: dotted underline 1px black;
+}
+
+.tooltip {
+  background-color: grey;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  display: block;
+  position: relative;
+  bottom: -40px;
+  visibility: hidden;
+}
+
+.text:hover .tooltip {
+  visibility: visible;
+}
