@@ -1,0 +1,43 @@
+.dropdown {
+  position: relative;
+  margin: 16px;
+  display: inline-block;
+}
+
+.menu-button {
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+}
+
+.menu-button:hover {
+  opacity: 1;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-list {
+  position: relative;
+  top: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+  color: black;
+  min-width: 120px;
+  z-index: 1;
+  display: none;
+}
+
+.dropdown:hover .menu-list {
+  display: block;
+}
+
+.menu-item {
+  padding: 16px;
+  list-style-type: none;
+}
+
+.menu-item:hover {
+  background-color: ghostwhite;
+}
