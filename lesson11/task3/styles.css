@@ -1,9 +1,6 @@
 .dropdown {
   position: absolute;
   margin: 16px;
-  /* display: flex; */
-  /* flex-direction: column;
-  display: inline-flex; */
 }
 
 .menu-button {
@@ -21,8 +18,6 @@
 }
 
 .menu-list {
-  /* position: relative;
-  top: 16px; */
   margin: 0;
   padding: 0;
   background-color: lightcyan;
