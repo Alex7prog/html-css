@@ -1,7 +1,5 @@
-div {
-  position: absolute;
-}
 .text {
+  position: relative;
   margin: 16px;
   text-decoration: dotted underline 1px black;
 }
@@ -12,7 +10,7 @@ div {
   padding: 8px;
   border-radius: 4px;
   display: block;
-  position: relative;
+  position: absolute;
   bottom: -40px;
   visibility: hidden;
 }
