@@ -27,7 +27,8 @@ body {
   margin-bottom: 8px;
 }
 
-.form.label {
+.form-label {
+  display: inline-block;
   margin-bottom: 4px;
 }
 
@@ -38,7 +39,6 @@ body {
   border-radius: 4px;
   padding: 4px;
   outline: none;
-  margin-top: 0px;
 }
 
 .submit-button {
