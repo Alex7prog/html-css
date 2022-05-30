@@ -9,6 +9,7 @@ tr {
 td {
   width: 50px;
   text-align: center;
+  padding: 0;
 }
 table {
   border: 1px solid #000000;
