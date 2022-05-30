@@ -20,18 +20,10 @@
   fill: #fff;
 }
 
-.fa-id-card {
-  vertical-align: middle;
-}
-
 .btn-hover:hover {
   color: darkcyan;
 }
 
 .btn-hover:hover > .bird-icon {
   fill: green;
-}
-
-.custom-button:hover > .fa-id-card {
-  fill: rgb(36, 0, 128);
 }
