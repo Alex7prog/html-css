@@ -2,20 +2,18 @@
   box-sizing: border-box;
 }
 
-tr {
-  line-height: 50px;
-}
-
-td {
-  width: 50px;
-  text-align: center;
-  border: 1px solid #000000;
-}
-
 table {
   border: 1px solid #000000;
   border-collapse: collapse;
   margin: 16px;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 0;
 }
 
 tr:nth-child(1) > td:nth-child(1n + 1) {
