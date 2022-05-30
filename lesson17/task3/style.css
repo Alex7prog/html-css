@@ -10,12 +10,26 @@ td {
   width: 50px;
   text-align: center;
   padding: 0;
-  /* border: 1px solid #000000; */
+  border: 1px solid #000000;
 }
+
 table {
   border: 1px solid #000000;
   border-collapse: collapse;
   margin: 16px;
+}
+
+tr:nth-child(1) > td:nth-child(1n + 1) {
+  border: none;
+}
+tr:nth-child(10) > td:nth-child(1n + 1) {
+  border: none;
+}
+tr:nth-child(1n + 1) > td:nth-child(1) {
+  border: none;
+}
+tr:nth-child(1n + 1) > td:nth-child(10) {
+  border: none;
 }
 
 tr:nth-child(2n + 2) > td:nth-child(2n + 3) {
@@ -33,112 +47,3 @@ tr:nth-child(10) > td:nth-child(2n + 3) {
 tr:nth-child(2n + 3) > td:nth-child(10) {
   background-color: #fff;
 }
-
-tr:nth-child(2) > td:nth-child(2) {
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-}
-tr:nth-child(2) > td:nth-child(9) {
-  border-top: 1px solid #000;
-  border-right: 1px solid #000;
-}
-tr:nth-child(9) > td:nth-child(2) {
-  border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
-}
-tr:nth-child(9) > td:nth-child(9) {
-  border-bottom: 1px solid #000;
-  border-right: 1px solid #000;
-}
-
-tr:nth-child(3) > td:nth-child(2) {
-  border-left: 1px solid #000;
-}
-tr:nth-child(4) > td:nth-child(2) {
-  border-left: 1px solid #000;
-}
-tr:nth-child(5) > td:nth-child(2) {
-  border-left: 1px solid #000;
-}
-tr:nth-child(6) > td:nth-child(2) {
-  border-left: 1px solid #000;
-}
-tr:nth-child(7) > td:nth-child(2) {
-  border-left: 1px solid #000;
-}
-tr:nth-child(8) > td:nth-child(2) {
-  border-left: 1px solid #000;
-}
-
-tr:nth-child(3) > td:nth-child(9) {
-  border-right: 1px solid #000;
-}
-tr:nth-child(4) > td:nth-child(9) {
-  border-right: 1px solid #000;
-}
-tr:nth-child(5) > td:nth-child(9) {
-  border-right: 1px solid #000;
-}
-tr:nth-child(6) > td:nth-child(9) {
-  border-right: 1px solid #000;
-}
-tr:nth-child(7) > td:nth-child(9) {
-  border-right: 1px solid #000;
-}
-tr:nth-child(8) > td:nth-child(9) {
-  border-right: 1px solid #000;
-}
-
-tr:nth-child(2) > td:nth-child(3) {
-  border-top: 1px solid #000;
-}
-tr:nth-child(2) > td:nth-child(4) {
-  border-top: 1px solid #000;
-}
-tr:nth-child(2) > td:nth-child(5) {
-  border-top: 1px solid #000;
-}
-tr:nth-child(2) > td:nth-child(6) {
-  border-top: 1px solid #000;
-}
-tr:nth-child(2) > td:nth-child(7) {
-  border-top: 1px solid #000;
-}
-tr:nth-child(2) > td:nth-child(8) {
-  border-top: 1px solid #000;
-}
-
-tr:nth-child(9) > td:nth-child(3) {
-  border-bottom: 1px solid #000;
-}
-tr:nth-child(9) > td:nth-child(4) {
-  border-bottom: 1px solid #000;
-}
-tr:nth-child(9) > td:nth-child(5) {
-  border-bottom: 1px solid #000;
-}
-tr:nth-child(9) > td:nth-child(6) {
-  border-bottom: 1px solid #000;
-}
-tr:nth-child(9) > td:nth-child(7) {
-  border-bottom: 1px solid #000;
-}
-tr:nth-child(9) > td:nth-child(8) {
-  border-bottom: 1px solid #000;
-}
-
-/* tbody > tr:nth-child(8n + 2) > td:nth-child(1n + 2) {
-  border-top: 1px solid #000;
-}
-
-tbody > tr:nth-child(n + 2) > td:nth-child(8n + 1) {
-  border-right: 1px solid #000;
-}
-
-tbody > tr:nth-child(8n + 2) > td:nth-child(10) {
-  border-top: none;
-}
-
-tbody > tr:nth-child(10) > td:nth-child(8n + 1) {
-  border-right: none;
-} */
