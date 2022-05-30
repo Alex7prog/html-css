@@ -10,11 +10,11 @@ td {
   width: 50px;
   text-align: center;
   padding: 0;
+  /* border: 1px solid #000000; */
 }
 table {
   border: 1px solid #000000;
   border-collapse: collapse;
-
   margin: 16px;
 }
 
@@ -43,9 +43,9 @@ tbody > tr:nth-child(n + 2) > td:nth-child(8n + 1) {
 }
 
 tbody > tr:nth-child(8n + 2) > td:nth-child(10) {
-  border-top: none;
+  border-top: hidden;
 }
 
 tbody > tr:nth-child(10) > td:nth-child(8n + 1) {
-  border-right: none;
+  border-right: hidden;
 }
