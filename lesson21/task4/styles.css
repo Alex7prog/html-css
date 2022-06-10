@@ -10,20 +10,20 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-height: 100vh;
 }
+
 header {
   background: linear-gradient(60deg, red, orange);
-}
-
-h1 {
   color: #fff;
   text-align: center;
 }
 
 .main {
   display: flex;
+  align-content: flex-start;
+  flex-grow: 1;
 }
 
 .navigation,
@@ -50,8 +50,7 @@ h1 {
 }
 
 .nav-list-link {
-  /* display: block;
-  width: 100%; */
+  display: block;
   padding: 0 0.5em;
   color: #fff;
   text-decoration: none;
@@ -69,6 +68,7 @@ h1 {
 .section__header {
   font-size: 5vw;
   text-align: center;
+  line-height: 100%;
 }
 
 .css-units {
@@ -80,7 +80,6 @@ h1 {
 
 .footer {
   display: flex;
-  align-content: flex-start;
   justify-content: center;
   padding: 0.5em;
   background-color: #e5e5e5;
