@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.navigation {
+  background-color: #fa8;
+  min-height: 200px;
+  display: flex;
+  flex: 1 1 50%;
+}
+
+.products-list {
+  background-color: #8af;
+  min-height: 200px;
+  display: flex;
+  width: 100%;
+  flex: 1 1 50%;
+}
+
+.news {
+  background-color: #a18;
+  min-height: 200px;
+  display: flex;
+  flex: auto;
+}
+
+span {
+  background-color: beige;
+  padding: 4px;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .products {
+    display: flex;
+    flex-basis: calc(100% / 3 * 2);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+  }
+  .news {
+    flex-basis: calc(100% / 3);
+  }
+}
