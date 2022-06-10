@@ -3,30 +3,30 @@
 }
 
 .navigation {
-  background-color: #fa8;
+  background-color: #ff7f50;
   min-height: 200px;
   display: flex;
   flex: 1 1 50%;
 }
 
 .products-list {
-  background-color: #8af;
+  background-color: #006400;
   min-height: 200px;
   display: flex;
-  width: 100%;
   flex: 1 1 50%;
 }
 
 .news {
-  background-color: #a18;
+  background-color: #00f;
   min-height: 200px;
   display: flex;
   flex: auto;
 }
 
 span {
-  background-color: beige;
-  padding: 4px;
+  font-family: Verdana, sans-serif;
+  background-color: #faebd7;
+  padding: 8px;
   border-radius: 4px;
   text-transform: lowercase;
   margin: auto;
