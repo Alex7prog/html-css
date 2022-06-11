@@ -26,6 +26,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-grow: 1;
 }
 
 .navigation,
