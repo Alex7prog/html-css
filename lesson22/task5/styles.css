@@ -118,6 +118,10 @@ img {
     float: left;
     width: 80%;
   }
+
+  .news {
+    float: left;
+  }
 }
 
 @media screen and (min-width: 1200px) {
