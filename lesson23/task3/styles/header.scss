@@ -1,0 +1,57 @@
+@import 'variables.scss';
+
+.header {
+  height: $unit-em * 3;
+  background-color: $color-bg-header;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 $unit-em * 3;
+  text-transform: uppercase;
+  list-style: none;
+  height: $unit-em * 3;
+
+  &__item {
+    padding: 0 $unit * 2;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &_active span {
+      color: $color-menu-item-active;
+    }
+    &-text {
+      color: $color-default;
+      // height: $unit-em * 3;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: $unit-em * 3;
+      margin: 0;
+      padding: 0 $unit * 2;
+      min-width: $submenu-width;
+      list-style: none;
+      color: $color-default;
+      background-color: $color-bg-submenu;
+      box-shadow: $submenu-shadow;
+      z-index: 1;
+
+      &__item:hover {
+        color: $color-submenu-active;
+      }
+    }
+
+    &:hover {
+      background-color: $color-menu-active;
+
+      .submenu {
+        display: block;
+      }
+    }
+  }
+}
