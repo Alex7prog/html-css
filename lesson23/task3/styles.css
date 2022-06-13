@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   margin: 0 0 0 3em;
+  padding: 0;
   text-transform: uppercase;
   list-style: none;
   height: 3em;
