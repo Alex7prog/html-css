@@ -1,0 +1,16 @@
+@import 'variables.scss';
+
+@media screen and (min-width: $sm) {
+  .menu_item__navigation,
+  .menu_item__products {
+    flex-basis: calc(100% / 2);
+  }
+}
+
+@media screen and (min-width: $md) {
+  .menu_item__navigation,
+  .menu_item__products,
+  .menu_item__news {
+    flex-basis: calc(100% / 3);
+  }
+}

@@ -1,0 +1,34 @@
+@import 'variables.scss';
+
+.menu {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+
+  &_item {
+    min-height: $menu-height;
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+
+    &__navigation {
+      background-color: $color-menu-navigation;
+    }
+
+    &__products {
+      background-color: $color-menu-products-list;
+    }
+
+    &__news {
+      background-color: $color-menu-news;
+    }
+    &_text {
+      font-family: $menu-text-font;
+      background-color: $color-menu-text-bg;
+      padding: $unit * 2;
+      border-radius: $unit;
+      text-transform: lowercase;
+    }
+  }
+}
