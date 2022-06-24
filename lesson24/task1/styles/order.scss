@@ -1,0 +1,106 @@
+.order {
+  padding: 50px 15px;
+  background-color: #f4f5f7;
+
+  @include for-large-up {
+    padding: 73px 0 72px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__illustration {
+    display: block;
+    max-width: 200px;
+    margin: auto;
+
+    @include for-large-up {
+      max-width: 269px;
+      margin: 0;
+      margin-right: 121px;
+    }
+  }
+
+  &_details {
+    max-width: 555px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: center;
+
+    @include for-large-up {
+      margin-top: 33px;
+    }
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 18px;
+
+    @include for-large-up {
+      margin-top: 12px;
+    }
+  }
+
+  &__form {
+    // margin-top: 0;
+    @include for-large-up {
+      display: flex;
+      margin-top: 26px;
+    }
+  }
+
+  &__email {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #2b292d33;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    margin-top: 40px;
+
+    @include for-large-up {
+      margin-top: 0;
+      // width: 385px;
+    }
+
+    &::placeholder {
+      color: $text-color-main;
+    }
+  }
+
+  &__button {
+    margin-top: 12px;
+
+    @include for-large-down {
+      width: 100%;
+    }
+
+    @include for-large-up {
+      // width: 160px;
+      margin-top: 0;
+      margin-left: 10px;
+      flex-shrink: 0;
+    }
+  }
+
+  &__terms {
+    font-size: 14px;
+    line-height: 22px;
+    color: $text-color-light-grey;
+    margin-top: 10px;
+  }
+
+  &__terms-link {
+    color: #3142c6;
+  }
+}
